@@ -13,6 +13,10 @@ app.use("/api/users", userRouter);
 app.get('/', (req,res)=>{
     res.send("hello");
 })
+app.get("/health", (req,res)=>{
+  res.send("OK")
+})
+
 
 connectDB();
 app.listen(5000, (req,res)=>{
