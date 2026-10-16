@@ -11,3 +11,6 @@ node_modules/
 # Optional: lock OS/editor files
 .DS_Store
 .vscode/
+
+# Local bare Git repository storage
+.codeforge/
